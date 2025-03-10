@@ -7,7 +7,7 @@
 ### 03/7/25:
 * I tinkered around with Aframe within IDE and messed around with the template dimensions from the Aframe. I also read the Aframe documents to see how models syntax works.
 
-'''html
+```HTML
 
  <a-scene>
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
@@ -17,7 +17,7 @@
       <a-sky color="#ECECEC"></a-sky>
  </a-scene>
 
-'''
+```
 
 
 <!--
