@@ -5,7 +5,7 @@
 ---
 
 ### 03/7/25:
-* I tinkered around with Aframe within
+* I tinkered around with Aframe within IDE and 
 
 ### X/X/XX:
 * Text
