@@ -18,7 +18,7 @@
  </a-scene>
 
 ```
-
+*I tinkered around with the base code, and I wondered if it were ever able to have modeels move without colliding with other models. Another thing I noted was that the syntax for the models needed a position based on the axis 0,0 and uses numerical values to find it's position on the model plane.
 
 <!--
 * Links you used today (websites, videos, etc)
