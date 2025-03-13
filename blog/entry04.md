@@ -8,6 +8,11 @@ For my FP tool, I picked Aframe as it had fulfilled my needs in successfully dem
 # Tinkering
 I tinkered around with Aframe. What do I mean by tinkering? I made a whole Aframme scene. I had to get familiar with the Aframe enviroment so I watched a few videos and watched some guides. What I was able to accomplish was this: ![Scene](scene.png)
 
+If you can't tell what you're looking at, it is a black square in a "forest" enviroment". I quickly put this together to see how the camera behaves and see how it would look. 
+
+# Skills
+What I was able to learn while writing this blog and tinkering with my tool, was how to tinker with tools. I originally thought tinkering meant to play around with the already built models. While that is correct in some situations, not in this one. To tinker, you would have to test the tool itself. Creating mini things and examples on your own to see where you got to. This allowed me to understand how to tinker with other tools in the future, and learn efficiently. This would save me time from playing around with the built models while not learning much from it. This Overall tinkering experience allowed me to understand my tool much better and use it efficiently.
+
 
 [Previous](entry03.md) | [Next](entry05.md)
 
