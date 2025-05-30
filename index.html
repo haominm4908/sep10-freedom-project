@@ -30,13 +30,41 @@
           body {
             background-color: lightgrey
           }
+          p {
+            font-family: "courier new", monospace;
+          }
+          h1 {
+            font-family: "courier new", monospace;
+          }
+          h2 {
+            font-family: "courier new", monospace;
+          }
+          h3 {
+            font-family: "courier new", monospace;
+          }
+          .box {
+            margin: 2%;
+            border-style: solid;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+          }
+          .card-body {
+
+          }
+          .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+          }
         </style>
 
         <title>Title</title>
     </head>
     <body>
         <!-- HTML -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="prep/wrench2.png" alt="Logo" width="50" height="50">
@@ -57,52 +85,47 @@
           <h1 class="center" id="home">Mechanical Engineering</h1>
           <h3 class="center">Mechanical Engineering has evolved over time, and as such, new inventions come by</h3>
           <p class="center">Evolution of the world of Mechanical Engineering</p>
-          <h2 class="center" id="context">Context:Ideas and Brainstorming</h2>
           <div class="border">
+          <h2 class="center" id="context">Ideas and Brainstorming</h2>
+
             <p>Mechanical engineering has gone a long way. From simple motors to moving chassis with said motors in them, except, much more advanced and complicated. Mechanics spend a long tiring day doing their jobs, and sometimes it can take a longer than usual. I decided to put my thinking cap on and said,"how about some sort of tool in expediting the workload?" I sat myself in a room and contemplated what does exist, and what doesn't. I also used a modeling tool to give a better idea of what the tool should be. Part A and Part B document this.</p>
             </div>
-          <h2 class="center" id="parta">Part A:Current tools</h2>
-          <div class="border">
+            <div class="border">
+          <h2 class="center" id="parta">Current tools</h2>
             <p>In mechanical engineering,or even engineering in general, tools are needed to build, fix, and sometimes break down things within their field. For example, the screwdriver is a tool needed to manually drill in a screw into 2 pieces of wood to connect to each other. Here are some examples:
             </p>
             </div>
-          <ol class="list-group list-group-numbered">
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Screwdriver</div>
-                <div>
-                <p>As mentioned before, Screwdrivers are used to help manually drill a Screw into a piece of material, and can be used to connect pieces. </p>
-                </div>
+          <div class="flex-container">
+            <div class="card" style="width: 18rem;">
+              <img src="prep/screwdriver.png" class="card-img-top" alt="screwdriver">
+               <div class="card-body">
+                  <p class="card-text">As mentioned before, Screwdrivers are used to help manually drill a Screw into a piece of material, and can be used to connect pieces.</p>
               </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Screws,Nuts,n bolts</div>
-                <div>
-               <p>Screws, Nuts, And bolts are all parts needed in Engineering. Screws are used to drill into pieces of material with the help of a screwdriver or a power drill with a screw attachment. Lug nuts, are a type of fastener used for Motor vehicles, and they can be found on ones tires. Bolts are another type of fastener, that work in conjointment with nuts.</p>
-               </div>
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Drill</div>
-                <div>
-              <p>A drill, or a power drill, is a electrical tool that produces a rapid circular motion. It comes with attachment that help with various situations. It can be used to drill a hole, combined with a screw, it can screw something in. It can help fasten a bolt as well. </p>
-              </div>
-              </div>
-            </li>
-          </ol>
-          <div>
-            <h2 class="center" id="partb">Part B: Future Inventions</h2>
-              <p class="large">We have the past, and present, its time for the future. There are no limits to creativity, and so Project: Apollo came to be.</h3>
           </div>
-    <div class="d-flex justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body" style="width: 200px;">
-          <h2 class="card-text">Project: Apollo</h2>
-            <p class="card-text">Project: Apollo is the codename for this invention. It's official name has yet to be disclosed. Apollo is a mechanical tool in helping with cars. It comes in a set of four, and is meant to help with taking wheels off for you, and storing it until you want it to be put back.</p>
+            <div class="card" style="width: 18rem;">
+               <img src="prep/screws.jpeg" class="card-img-top" alt="Screws, nuts, and bolts">
+               <div class="card-body">
+                   <p class="card-text">Screws, Nuts, And bolts are all parts needed in Engineering. Screws are used to drill into pieces of material with the help of a screwdriver or a power drill with a screw attachment. Lug nuts, are a type of fastener used for Motor vehicles, and they can be found on ones tires. Bolts are another type of fastener, that work in conjointment with nuts.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="prep/drill.jpeg" class="card-img-top" alt="Drill">
+                  <div class="card-body">
+                    <p class="card-text">A drill, or a power drill, is a electrical tool that produces a rapid circular motion. It comes with attachment that help with various situations. It can be used to drill a hole, combined with a screw, it can screw something in. It can help fasten a bolt as well.</p>
+                  </div>
+            </div>
+
+
           </div>
-         </div>
+
+
+          <div class="border">
+            <h2 class="center" id="partb">Future Inventions</h2>
+              <p class="large">We have the past, and present, its time for the future. There are no limits to an engineering like mind.
+          <div class="box">
+           <h2>Project: Apollo</h2>
+            <p>Project: Apollo is the codename for this invention. It's official name has yet to be disclosed. Apollo is a mechanical tool in helping with cars. It comes in a set of four, and is meant to help with taking wheels off for you, and storing it until you want it to be put back.</p>
+          </div>
         </div>
        <h2 class="center">FAQ:</h2>
        <div>
